@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <span id="title">Titulo</span>
+        </div>
+        <div class="main">
+            <div id="formulario">
+                <form action="" method="post">
+                    <div class="labels">
+                        <label id="nascDate" for="date">Ano de Nascimento </label>
+                        <input type="number" name="dateNasc" id="dateNasc">
+                        <p id="sexo"><strong> Sexo? </strong>
+                            <input type="radio" name="txtGen" id="masc"> Masculino
+                            <input type="radio" name="txtGen" id="fem"> Feminino
+                            <input type="radio" name="txtGen" id="others"> Outros
+                        </p>
+                        <p id="verify">
+                            <input id="botaum" type="button" value="verify" onclick="clicar()">
+                        </p>
+                    </div>
+
+                </form>
+
+            </div>
+
+            <div id="res">
+                <p>Preencha os dados acima para ver o resultado!</p>
+            </div>
+
+        </div>
+
+        <div class="footer">
+
+            <p id="name">&copy; Otávio Augusto</p>
+
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
